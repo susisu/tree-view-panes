@@ -1,0 +1,15 @@
+{
+  "name": "tree-view-panes",
+  "main": "./lib/tree-view-panes.js",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "activationCommands": {},
+  "repository": "https://github.com/susisu/tree-view-panes",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
