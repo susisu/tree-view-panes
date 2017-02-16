@@ -1,13 +1,18 @@
 @import "ui-variables";
 
 .tree-view-panes {
-    background-color: @tree-view-background-color;
-}
+  position: relative;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color: @tree-view-background-color;
 
-.tree-view-panes .pending-item .name {
-    font-style: italic;
-}
+  .pending-item {
+    &.hidden {
+      display: none;
+    }
 
-.tree-view-panes .pending-item.hidden {
-    display: none;
+    .name {
+      font-style: italic;
+    }
+  }
 }
