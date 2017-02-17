@@ -33,12 +33,24 @@
       text-align: center;
       color: @text-color;
 
+      &:hover {
+        color: @text-color-selected;
+      }
+
       &::before {
         display: none;
       }
+    }
+
+    &.modified .close-button {
+      .octicon(primitive-dot, @font-size);
 
       &:hover {
-        color: @text-color-selected;
+        .octicon(x, @font-size);
+      }
+
+      &::before {
+        display: inline-block;
       }
     }
 
