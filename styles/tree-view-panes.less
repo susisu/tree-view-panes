@@ -32,6 +32,13 @@
       }
     }
 
+    &.drag-over::after {
+      content: "";
+      display: block;
+      margin-top: -2px;
+      border-bottom: 2px solid @background-color-selected;
+    }
+
     .close-button {
       .octicon(x, @font-size);
 
