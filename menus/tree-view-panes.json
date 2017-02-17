@@ -1,0 +1,69 @@
+{
+  "context-menu": {
+    ".tree-view-panes .pane-header": [
+      {
+        "label": "Split Up",
+        "command": "tree-view-panes:split-up"
+      },
+      {
+        "label": "Split Down",
+        "command": "tree-view-panes:split-down"
+      },
+      {
+        "label": "Split Left",
+        "command": "tree-view-panes:split-left"
+      },
+      {
+        "label": "Split Right",
+        "command": "tree-view-panes:split-right"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Close Pane",
+        "command": "tree-view-panes:close-pane"
+      }
+    ],
+    ".tree-view-panes .item": [
+      {
+        "label": "Close Item",
+        "command": "tree-view-panes:close-item"
+      },
+      {
+        "label": "Close Other Items",
+        "command": "tree-view-panes:close-other-items"
+      },
+      {
+        "label": "Close Saved Items",
+        "command": "tree-view-panes:close-saved-items"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Split Up",
+        "command": "tree-view-panes:split-up"
+      },
+      {
+        "label": "Split Down",
+        "command": "tree-view-panes:split-down"
+      },
+      {
+        "label": "Split Left",
+        "command": "tree-view-panes:split-left"
+      },
+      {
+        "label": "Split Right",
+        "command": "tree-view-panes:split-right"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Close Pane",
+        "command": "tree-view-panes:close-pane"
+      }
+    ]
+  }
+}
