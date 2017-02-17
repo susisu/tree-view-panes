@@ -1,4 +1,5 @@
 @import "ui-variables";
+@import "octicon-mixins";
 
 .tree-view-panes {
   position: relative;
@@ -6,13 +7,39 @@
   padding-right: 10px;
   background-color: @tree-view-background-color;
 
-  .pending-item {
-    &.hidden {
-      display: none;
+  .list-item {
+    &.pending-item {
+      &.hidden {
+        display: none;
+      }
+
+      .name {
+        font-style: italic;
+      }
     }
 
-    .name {
-      font-style: italic;
+    .close-button {
+      .octicon(x, @font-size);
+
+      display: inline-block;
+      width: @font-size + @component-icon-padding * 2;
+      padding-left: @component-icon-padding;
+      padding-right: @component-icon-padding;
+      margin-left: -(@font-size + @component-icon-padding * 2);
+      text-align: center;
+      color: @text-color;
+
+      &::before {
+        display: none;
+      }
+
+      &:hover {
+        color: @text-color-selected;
+      }
+    }
+
+    &:hover .close-button::before, &.selected .close-button::before {
+      display: inline-block;
     }
   }
 }
