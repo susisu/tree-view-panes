@@ -2,6 +2,13 @@
   "context-menu": {
     ".tree-view-panes .pane-header": [
       {
+        "label": "Close Saved Items",
+        "command": "tree-view-panes:close-saved-items"
+      },
+      {
+        "type": "separator"
+      },
+      {
         "label": "Split Up",
         "command": "tree-view-panes:split-up"
       },
