@@ -3,6 +3,9 @@
   "main": "./lib/tree-view-panes.js",
   "version": "0.0.0",
   "description": "",
+  "scripts": {
+    "lint": "eslint lib --fix"
+  },
   "keywords": [],
   "activationCommands": {},
   "repository": "https://github.com/susisu/tree-view-panes",
