@@ -1,5 +1,3 @@
-The MIT License (http://opensource.org/licenses/mit-license.php)
-
 Copyright (c) 2017 Susisu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
