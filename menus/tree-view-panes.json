@@ -1,6 +1,6 @@
 {
   "context-menu": {
-    ".tree-view-panes .pane-header": [
+    ".tree-view-panes .list-item-pane-header": [
       {
         "label": "Close Saved Items",
         "command": "tree-view-panes:close-saved-items"
@@ -32,7 +32,7 @@
         "command": "tree-view-panes:close-pane"
       }
     ],
-    ".tree-view-panes .item": [
+    ".tree-view-panes .list-item-item": [
       {
         "label": "Close Item",
         "command": "tree-view-panes:close-item"
