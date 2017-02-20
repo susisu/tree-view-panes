@@ -16,3 +16,6 @@ If you are using One Dark/Light theme, add the following snippet to your
   position: absolute !important;
 }
 ```
+
+There are some other styling issues, but I have no idea to fix them generally.
+Please help me to improve the package.
