@@ -68,6 +68,25 @@
         "type": "separator"
       },
       {
+        "label": "Split Up And Move",
+        "command": "tree-view-panes:split-up-and-move"
+      },
+      {
+        "label": "Split Down And Move",
+        "command": "tree-view-panes:split-down-and-move"
+      },
+      {
+        "label": "Split Left And Move",
+        "command": "tree-view-panes:split-left-and-move"
+      },
+      {
+        "label": "Split Right And Move",
+        "command": "tree-view-panes:split-right-and-move"
+      },
+      {
+        "type": "separator"
+      },
+      {
         "label": "Close Pane",
         "command": "tree-view-panes:close-pane"
       }
