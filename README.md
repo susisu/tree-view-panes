@@ -1,7 +1,17 @@
 # tree-view-panes
 Show open files / panes on the top of the tree view.
+This package aims to provide an alternative to the functionalities of tabs.
 
 ![screenshot](https://github.com/susisu/tree-view-panes/wiki/images/demo.gif)
+
+## Features
+* Show panes (or open files) on the tree view
+* All I wanted but other packages lacked
+    - Intuitive pane ordering
+    - Hide pending items
+    - Move items by drag and drop
+    - Context menu
+    - etc.
 
 ## Notes
 I recommend turning off "Auto Reveal" setting of the "tree-view" package,
