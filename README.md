@@ -11,6 +11,7 @@ This package aims to provide an alternative to the functionalities of tabs.
     - Hide pending items
     - Move items by drag and drop
     - Context menu
+    - File icons
     - etc.
 
 ## Notes

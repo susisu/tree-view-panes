@@ -1,3 +1,6 @@
+## 0.1.6
+* Add support for file-icons
+
 ## 0.1.5
 * Improve "Split" command, now it can copy non-editor items, like "Settings".
 
