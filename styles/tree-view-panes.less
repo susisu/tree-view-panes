@@ -17,8 +17,14 @@
   position: relative;
   background-color: @tree-view-background-color;
 
-  .list-item-pane.active .header .name {
-    text-decoration: underline;
+  .list-item-pane.active {
+    .header .name {
+      text-decoration: underline;
+    }
+
+    .list-item.selected .name.icon::before {
+      color: @text-color-selected;
+    }
   }
 
   .list-item {
