@@ -12,6 +12,13 @@
     "panes"
   ],
   "activationCommands": {},
+  "consumedServices": {
+    "atom.file-icons": {
+      "versions": {
+        "1.0.0": "consumeFileIcons"
+      }
+    }
+  },
   "repository": "https://github.com/susisu/tree-view-panes",
   "license": "MIT",
   "engines": {
