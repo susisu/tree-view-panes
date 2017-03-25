@@ -1,3 +1,6 @@
+## 0.1.7
+* Add Git status indication
+
 ## 0.1.6
 * Add support for file-icons
 

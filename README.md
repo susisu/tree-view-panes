@@ -12,6 +12,7 @@ This package aims to provide an alternative to the functionalities of tabs.
     - Move items by drag and drop
     - Context menu
     - File icons
+    - Git status
     - etc.
 
 ## Notes
