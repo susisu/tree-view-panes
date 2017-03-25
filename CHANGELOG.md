@@ -1,3 +1,7 @@
+## 0.1.8
+* Modify stylesheet
+    - Visit [tree-view-panes style patches collection](https://github.com/susisu/tree-view-panes-styles) repository to find theme-specific additional stylesheets
+
 ## 0.1.7
 * Add Git status indication
 
