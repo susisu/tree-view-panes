@@ -1,7 +1,7 @@
 {
   "name": "tree-view-panes",
   "main": "./lib/tree-view-panes.js",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Show open files / panes on the top of the tree view",
   "scripts": {
     "lint": "eslint lib --fix"
