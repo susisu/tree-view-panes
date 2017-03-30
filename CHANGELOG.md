@@ -1,3 +1,8 @@
+## 0.2.0
+* Add tooltip showing file's path
+* Improve view injection
+* Some small changes
+
 ## 0.1.8
 * Modify stylesheet
     - Visit [tree-view-panes style patches collection](https://github.com/susisu/tree-view-panes-styles) repository to find theme-specific additional stylesheets
