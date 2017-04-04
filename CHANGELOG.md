@@ -1,3 +1,6 @@
+## 0.2.1
+* Fix titles of other items are not updated on renaming a file
+
 ## 0.2.0
 * Add tooltip showing file's path
 * Improve view injection
