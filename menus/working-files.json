@@ -1,94 +1,94 @@
 {
   "context-menu": {
-    ".tree-view-panes .list-item-pane-header": [
+    ".working-files .list-item-pane-header": [
       {
         "label": "Close Saved Items",
-        "command": "tree-view-panes:close-saved-items"
+        "command": "working-files:close-saved-items"
       },
       {
         "type": "separator"
       },
       {
         "label": "Split Up",
-        "command": "tree-view-panes:split-up"
+        "command": "working-files:split-up"
       },
       {
         "label": "Split Down",
-        "command": "tree-view-panes:split-down"
+        "command": "working-files:split-down"
       },
       {
         "label": "Split Left",
-        "command": "tree-view-panes:split-left"
+        "command": "working-files:split-left"
       },
       {
         "label": "Split Right",
-        "command": "tree-view-panes:split-right"
+        "command": "working-files:split-right"
       },
       {
         "type": "separator"
       },
       {
         "label": "Close Pane",
-        "command": "tree-view-panes:close-pane"
+        "command": "working-files:close-pane"
       }
     ],
-    ".tree-view-panes .list-item-item": [
+    ".working-files .list-item-item": [
       {
         "label": "Close Item",
-        "command": "tree-view-panes:close-item"
+        "command": "working-files:close-item"
       },
       {
         "label": "Close Other Items",
-        "command": "tree-view-panes:close-other-items"
+        "command": "working-files:close-other-items"
       },
       {
         "label": "Close Saved Items",
-        "command": "tree-view-panes:close-saved-items"
+        "command": "working-files:close-saved-items"
       },
       {
         "type": "separator"
       },
       {
         "label": "Split Up",
-        "command": "tree-view-panes:split-up"
+        "command": "working-files:split-up"
       },
       {
         "label": "Split Down",
-        "command": "tree-view-panes:split-down"
+        "command": "working-files:split-down"
       },
       {
         "label": "Split Left",
-        "command": "tree-view-panes:split-left"
+        "command": "working-files:split-left"
       },
       {
         "label": "Split Right",
-        "command": "tree-view-panes:split-right"
+        "command": "working-files:split-right"
       },
       {
         "type": "separator"
       },
       {
         "label": "Split Up And Move",
-        "command": "tree-view-panes:split-up-and-move"
+        "command": "working-files:split-up-and-move"
       },
       {
         "label": "Split Down And Move",
-        "command": "tree-view-panes:split-down-and-move"
+        "command": "working-files:split-down-and-move"
       },
       {
         "label": "Split Left And Move",
-        "command": "tree-view-panes:split-left-and-move"
+        "command": "working-files:split-left-and-move"
       },
       {
         "label": "Split Right And Move",
-        "command": "tree-view-panes:split-right-and-move"
+        "command": "working-files:split-right-and-move"
       },
       {
         "type": "separator"
       },
       {
         "label": "Close Pane",
-        "command": "tree-view-panes:close-pane"
+        "command": "working-files:close-pane"
       }
     ]
   }

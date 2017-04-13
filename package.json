@@ -1,13 +1,14 @@
 {
-  "name": "tree-view-panes",
-  "main": "./lib/tree-view-panes.js",
+  "name": "working-files",
+  "main": "./lib/working-files.js",
   "version": "0.2.1",
-  "description": "Show list of open panes and files on the top of the tree view",
+  "description": "Show list of open panes and files",
   "scripts": {
     "lint": "eslint lib --fix"
   },
   "keywords": [
     "tree-view",
+    "working-files",
     "open",
     "panes",
     "files"
@@ -20,15 +21,18 @@
       }
     }
   },
-  "repository": "https://github.com/susisu/tree-view-panes",
+  "repository": "https://github.com/chrisdrackett/working-files",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.17.0 <2.0.0"
   },
   "dependencies": {
     "fs-plus": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^3.15.0"
+  },
+  "deserializers": {
+    "working-files/WorkingFilesView": "deserializeWorkingFilesView"
   }
 }
