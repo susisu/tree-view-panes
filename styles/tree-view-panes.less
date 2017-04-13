@@ -1,21 +1,15 @@
 @import "ui-variables";
 @import "octicon-mixins";
 
-.tree-view-wrapper {
-  min-width: -webkit-min-content;
-  min-height: 100%;
-  flex-grow: 1;
-  flex-shrink: 0;
-  background-color: @tree-view-background-color;
-}
-
 .tree-view-panes {
-  isolation: isolate;
   min-width: -webkit-min-content;
   padding-left: 5px;
   padding-right: 10px;
   position: relative;
   background-color: @tree-view-background-color;
+  
+  contain: size;
+  overflow: auto;
 
   .list-item {
     &.pending-item {

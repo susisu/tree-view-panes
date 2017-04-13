@@ -30,5 +30,8 @@
   },
   "devDependencies": {
     "eslint": "^3.15.0"
+  },
+  "deserializers": {
+    "tree-view-panes/TreeViewPanesView": "deserializeTreeViewPanesView"
   }
 }
