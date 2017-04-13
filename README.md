@@ -1,7 +1,7 @@
-# tree-view-panes
+# working-files
 Show list of open panes and files on the top of the tree view.
 
-![screenshot](https://github.com/susisu/tree-view-panes/wiki/images/demo.gif)
+![screenshot](https://github.com/susisu/working-files/wiki/images/demo.gif)
 
 This package aims to provide an alternative to the functionality of tabs.
 
@@ -22,10 +22,5 @@ one and most of (maybe all) theme packages do not have any support.
 
 Those problems cannot be solved in a generic way (as far as I know), however,
 there are patches prepared for some themes to fix them.
-Visit [tree-view-panes style patches collection](https://github.com/susisu/tree-view-panes-styles)
+Visit [working-files style patches collection](https://github.com/susisu/working-files-styles)
 repository and try one out.
-
-## Notes
-I recommend turning off "Auto Reveal" setting of the "tree-view" package,
-because it moves the tree view up and down and this might be a bit annoying when
-switching files from the tree view.
