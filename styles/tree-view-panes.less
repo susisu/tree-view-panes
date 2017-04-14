@@ -1,74 +1,72 @@
 @import "ui-variables";
 @import "octicon-mixins";
 
-.tree-view-wrapper {
-  min-width: -webkit-min-content;
-  min-height: 100%;
-  flex-grow: 1;
-  flex-shrink: 0;
-  background-color: @tree-view-background-color;
-}
+.tree-view-panes {
+  contain: size;
+  overflow: auto;
+  -webkit-user-select: none;
 
-.tree-view-panes-content {
-  isolation: isolate;
-  min-width: -webkit-min-content;
-  padding-left: 5px;
-  padding-right: 10px;
-  position: relative;
-  background-color: @tree-view-background-color;
+  .list-tree {
+    isolation: isolate;
+    width: min-content;
+    padding-left: @component-icon-padding;
+    padding-right: @component-padding;
+    position: static;
+    background-color: inherit;
 
-  .list-item {
-    &.pending-item {
-      &.hidden {
-        display: none;
+    .list-item {
+      &.pending-item {
+        &.hidden {
+          display: none;
+        }
+
+        .name {
+          font-style: italic;
+        }
       }
 
-      .name {
-        font-style: italic;
-      }
-    }
-
-    &.drag-over::after {
-      content: "";
-      display: block;
-      margin-top: -2px;
-      border-bottom: 2px solid @background-color-selected;
-    }
-
-    .close-button {
-      .octicon(x, @font-size);
-
-      display: inline-block;
-      width: @font-size + @component-icon-padding * 2;
-      padding-left: @component-icon-padding;
-      padding-right: @component-icon-padding;
-      margin-left: -(@font-size + @component-icon-padding * 2);
-      text-align: center;
-      color: @text-color;
-
-      &:hover {
-        color: @text-color-selected;
+      &.drag-over::after {
+        content: "";
+        display: block;
+        margin-top: -2px;
+        border-bottom: 2px solid @background-color-selected;
       }
 
-      &::before {
-        display: none;
-      }
-    }
-
-    &.modified .close-button {
-      .octicon(primitive-dot, @font-size);
-
-      &:hover {
+      .close-button {
         .octicon(x, @font-size);
+
+        display: inline-block;
+        width: @font-size + @component-icon-padding * 2;
+        padding-left: @component-icon-padding;
+        padding-right: @component-icon-padding;
+        margin-left: -(@font-size + @component-icon-padding * 2);
+        text-align: center;
+        color: @text-color;
+
+        &:hover {
+          color: @text-color-selected;
+        }
+
+        &::before {
+          display: none;
+        }
       }
 
-      &::before {
+      &.modified .close-button {
+        .octicon(primitive-dot, @font-size);
+
+        &:hover {
+          .octicon(x, @font-size);
+        }
+
+        &::before {
+          display: inline-block;
+        }
+      }
+
+      &:hover .close-button::before, &.selected .close-button::before {
         display: inline-block;
       }
-    }
-
-    &:hover .close-button::before, &.selected .close-button::before {
-      display: inline-block;
     }
   }
 }
