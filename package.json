@@ -1,6 +1,6 @@
 {
   "name": "tree-view-panes",
-  "main": "./lib/tree-view-panes.js",
+  "main": "./lib/main.js",
   "version": "0.2.1",
   "description": "Show list of open panes and files on the top of the tree view",
   "scripts": {
