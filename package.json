@@ -20,6 +20,9 @@
       }
     }
   },
+  "deserializers": {
+    "tree-view-panes/TreeViewPanes": "deserializeTreeViewPanes"
+  },
   "repository": "https://github.com/susisu/tree-view-panes",
   "license": "MIT",
   "engines": {
