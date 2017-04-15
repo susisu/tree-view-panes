@@ -33,5 +33,19 @@
   },
   "devDependencies": {
     "eslint": "^3.15.0"
+  },
+  "configSchema": {
+    "showPendingItems": {
+      "order"      : 1,
+      "type"       : "boolean",
+      "default"    : true,
+      "description": "Show pending items on the tree view."
+    },
+    "showGitStatus": {
+      "order"      : 2,
+      "type"       : "boolean",
+      "default"    : true,
+      "description": "Show Git statuses of files."
+    }
   }
 }
