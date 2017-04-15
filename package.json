@@ -2,6 +2,9 @@
   "name": "tree-view-panes",
   "main": "./lib/tree-view-panes.js",
   "version": "0.2.1",
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
   "description": "Show list of open panes and files on the top of the tree view",
   "scripts": {
     "lint": "eslint lib --fix"
