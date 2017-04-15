@@ -12,17 +12,6 @@
     "panes",
     "files"
   ],
-  "activationCommands": {},
-  "consumedServices": {
-    "atom.file-icons": {
-      "versions": {
-        "1.0.0": "consumeFileIcons"
-      }
-    }
-  },
-  "deserializers": {
-    "tree-view-panes/TreeViewPanes": "deserializeTreeViewPanes"
-  },
   "repository": "https://github.com/susisu/tree-view-panes",
   "license": "MIT",
   "engines": {
@@ -33,6 +22,17 @@
   },
   "devDependencies": {
     "eslint": "^3.15.0"
+  },
+  "activationCommands": {},
+  "consumedServices": {
+    "atom.file-icons": {
+      "versions": {
+        "1.0.0": "consumeFileIcons"
+      }
+    }
+  },
+  "deserializers": {
+    "tree-view-panes/TreeViewPanes": "deserializeTreeViewPanes"
   },
   "configSchema": {
     "showPendingItems": {
