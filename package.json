@@ -32,7 +32,7 @@
     }
   },
   "deserializers": {
-    "tree-view-panes/DockItem": "deserializeDockItem"
+    "tree-view-panes/DockItem": "getDockItem"
   },
   "configSchema": {
     "showPendingItems": {
