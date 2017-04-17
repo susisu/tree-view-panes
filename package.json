@@ -35,7 +35,7 @@
     }
   },
   "deserializers": {
-    "tree-view-panes/DockItem": "getDockItem"
+    "tree-view-panes/DockItem": "getOrCreateDockItem"
   },
   "configSchema": {
     "showPendingItems": {
