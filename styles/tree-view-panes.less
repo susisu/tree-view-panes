@@ -1,7 +1,20 @@
 @import "ui-variables";
 @import "octicon-mixins";
 
-.tree-view-panes-dock-item {
+.tree-view-wrapper {
+  min-width: min-content;
+  min-height: 100%;
+  position: relative;
+
+  > ol {
+    isolation: isolate;
+    min-width: min-content;
+    padding-left: @component-icon-padding;
+    padding-right: @component-padding;
+    background-color: inherit;
+  }
+}
+
   contain: size;
   overflow: auto;
   -webkit-user-select: none;
