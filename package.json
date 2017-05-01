@@ -17,9 +17,6 @@
   ],
   "repository": "https://github.com/susisu/tree-view-panes",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
   "dependencies": {
     "fs-plus": "^3.0.0"
   },
