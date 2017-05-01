@@ -39,13 +39,13 @@
       "order"      : 1,
       "type"       : "boolean",
       "default"    : true,
-      "description": "Inject view onto the top of the tree view"
+      "description": "Inject view onto the top of the tree view."
     },
     "showPendingItems": {
       "order"      : 2,
       "type"       : "boolean",
       "default"    : true,
-      "description": "Show pending items on the tree view."
+      "description": "Show pending items."
     },
     "showGitStatus": {
       "order"      : 3,
