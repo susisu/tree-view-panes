@@ -5,7 +5,7 @@
   "engines": {
     "atom": ">=1.17.0 <2.0.0"
   },
-  "description": "Show list of open panes and files on the top of the tree view",
+  "description": "Show open files and panes as a tree",
   "scripts": {
     "lint": "eslint lib --fix"
   },
