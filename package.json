@@ -1,7 +1,7 @@
 {
   "name": "tree-view-panes",
   "main": "./lib/tree-view-panes.js",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "engines": {
     "atom": ">=1.17.0 <2.0.0"
   },
@@ -36,21 +36,21 @@
   },
   "configSchema": {
     "injectView": {
-      "order"      : 1,
-      "type"       : "boolean",
-      "default"    : true,
+      "order": 1,
+      "type": "boolean",
+      "default": true,
       "description": "Inject view onto the top of the tree view."
     },
     "showPendingItems": {
-      "order"      : 2,
-      "type"       : "boolean",
-      "default"    : true,
+      "order": 2,
+      "type": "boolean",
+      "default": true,
       "description": "Show pending items."
     },
     "showGitStatus": {
-      "order"      : 3,
-      "type"       : "boolean",
-      "default"    : true,
+      "order": 3,
+      "type": "boolean",
+      "default": true,
       "description": "Show Git statuses of files."
     }
   }
