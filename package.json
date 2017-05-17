@@ -37,6 +37,7 @@
   "configSchema": {
     "injectView": {
       "order": 1,
+      "title": "Injected View",
       "type": "boolean",
       "default": true,
       "description": "Inject view onto the top of the tree view."
