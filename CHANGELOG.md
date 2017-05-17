@@ -1,3 +1,10 @@
+## 0.3.1
+* Modify config title
+
+## 0.3.0
+* Compatible with Atom 1.17
+* Add support for the docks
+
 ## 0.2.1
 * Fix titles of other items are not updated on renaming a file
 
