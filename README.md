@@ -3,8 +3,6 @@ Shows open files and panes as a tree.
 
 ![screenshot](https://github.com/susisu/tree-view-panes/wiki/images/demo.gif)
 
-**Stylesheet patches for each themes are available [here](https://github.com/susisu/tree-view-panes-styles)!**
-
 ## Features
 This package provides two styles of views: *injected view* and *dock item*.
 
