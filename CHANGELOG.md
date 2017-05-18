@@ -1,3 +1,6 @@
+## 0.3.2
+* Add boundary checks to fix potential reference errors
+
 ## 0.3.1
 * Modify config title
 
