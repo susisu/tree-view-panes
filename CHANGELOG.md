@@ -1,3 +1,6 @@
+## 0.3.3
+* Include theme specific stylesheets for the bundled themes of Atom
+
 ## 0.3.2
 * Add boundary checks to fix potential reference errors
 
@@ -18,7 +21,6 @@
 
 ## 0.1.8
 * Modify stylesheet
-    - Visit [tree-view-panes style patches collection](https://github.com/susisu/tree-view-panes-styles) repository to find theme-specific additional stylesheets
 
 ## 0.1.7
 * Add Git status indication
