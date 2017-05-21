@@ -2,26 +2,39 @@
 @import "octicon-mixins";
 
 .tree-view-wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
   min-width: min-content;
   position: relative;
 
-  > ol {
+  .tree-view-panes.list-tree, .full-menu.list-tree {
     isolation: isolate;
     padding-left: @component-icon-padding;
     padding-right: @component-padding;
     background-color: inherit;
+  }
+
+  .tree-view-panes.list-tree {
+    flex-grow: 0;
+  }
+
+  .full-menu.list-tree {
+    flex-grow: 1;
   }
 }
 
 .tree-view-wrapper.width-calculation {
   width: min-content;
 
-  > ol {
+  .tree-view-panes.list-tree, .full-menu.list-tree {
     width: min-content;
   }
 }
 
 .tool-panel.tree-view-panes-dock-item {
+  display: flex;
+  flex-direction: column;
   contain: size;
   overflow: auto;
   -webkit-user-select: none;
