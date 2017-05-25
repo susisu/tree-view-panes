@@ -1,3 +1,6 @@
+## 0.3.4
+* Improve stylesheet (to fit Atom 1.17.1)
+
 ## 0.3.3
 * Include theme specific stylesheets for the bundled themes of Atom
 
