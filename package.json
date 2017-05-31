@@ -59,7 +59,6 @@
       "type": "boolean",
       "default": true,
       "description": "Show tooltips with file path on hover."
-
     }
   }
 }
