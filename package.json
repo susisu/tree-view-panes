@@ -53,6 +53,13 @@
       "type": "boolean",
       "default": true,
       "description": "Show Git statuses of files."
+    },
+    "showTooltips": {
+      "order": 4,
+      "type": "boolean",
+      "default": true,
+      "description": "Show tooltips with file path on hover."
+
     }
   }
 }
