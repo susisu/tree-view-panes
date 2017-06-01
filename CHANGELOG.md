@@ -1,3 +1,6 @@
+## 0.3.5
+* Add option to toggle tooltips (by [@chrisdrackett](https://github.com/chrisdrackett))
+
 ## 0.3.4
 * Improve stylesheet (to fit Atom 1.17.1)
 
