@@ -1,3 +1,6 @@
+## 0.3.6
+* Improve robustness for (unexpected) broken states
+
 ## 0.3.5
 * Add option to toggle tooltips (by [@chrisdrackett](https://github.com/chrisdrackett))
 
