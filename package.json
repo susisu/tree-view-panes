@@ -1,7 +1,7 @@
 {
   "name": "tree-view-panes",
   "main": "./lib/tree-view-panes.js",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "engines": {
     "atom": ">=1.17.0 <2.0.0"
   },
