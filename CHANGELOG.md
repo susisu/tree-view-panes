@@ -1,3 +1,6 @@
+## 0.3.7
+* Add feature turning off pending state of item on double click
+
 ## 0.3.6
 * Improve robustness for (unexpected) broken states
 
